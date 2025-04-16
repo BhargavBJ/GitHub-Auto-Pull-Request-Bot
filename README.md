@@ -1,23 +1,22 @@
-
 ---
 
-# GitHub-Auto-Pull-Request-Bot
+# GitHub-Auto-Pull-Request-Bot 🚀
 
-## Introduction
+## Introduction 🎯
 
 Recruiters often don't focus on the specific projects you have worked on, but rather the activity and frequency of contributions displayed on your GitHub profile. A higher number of commits and pull requests can showcase your dedication, engagement with development, and ability to contribute consistently to projects. 
 
-The **GitHub-Auto-Pull-Request-Bot** is an automated solution designed to help you maintain active contributions on GitHub by automatically generating pull requests. The bot creates random commits to your repository, enabling frequent updates and pull requests without manual intervention, ensuring that your GitHub activity remains visible and updated.
+The **GitHub-Auto-Pull-Request-Bot** is an automated solution designed to help you maintain active contributions on GitHub by automatically generating pull requests. The bot creates random commits to your repository, enabling frequent updates and pull requests without manual intervention, ensuring that your GitHub activity remains visible and updated. 🔄
 
-## Features
+## Features ✨
 
-- **Automatic Pull Request Generation**: The bot creates pull requests automatically based on predefined configurations.
-- **Random Commit Content**: Each commit contains randomly generated sentences, ensuring variety and constant activity.
-- **Customizable Frequency**: You can configure the bot to create a specified number of pull requests per day.
-- **GitHub API Integration**: Uses GitHub's API to automate pull request creation and repository interactions.
-- **Logging**: The bot logs its activity, allowing you to track every commit, PR creation, and any errors encountered.
+- **Automatic Pull Request Generation** 🤖: The bot creates pull requests automatically based on predefined configurations.
+- **Random Commit Content** 🔀: Each commit contains randomly generated sentences, ensuring variety and constant activity.
+- **Customizable Frequency** ⏱️: You can configure the bot to create a specified number of pull requests per day.
+- **GitHub API Integration** 🔗: Uses GitHub's API to automate pull request creation and repository interactions.
+- **Logging** 📜: The bot logs its activity, allowing you to track every commit, PR creation, and any errors encountered.
 
-## Directory Structure
+## Directory Structure 🗂️
 
 ```
 auto-pr-bot/
@@ -35,12 +34,12 @@ auto-pr-bot/
 │   ├── random_sentences.txt  # Store any pre-generated sentences (optional)
 ├── requirements.txt          # Python dependencies required for the project
 ├── README.md                 # Project overview, setup instructions, and usage
-└── run_bot.py                # Entry point to run the bot
+└── auto-pr-bot.py                # Entry point to run the bot
 ```
 
-## Setup Instructions
+## Setup Instructions ⚙️
 
-1. **Clone the Repository**
+1. **Clone the Repository** 🖥️
 
    Begin by cloning this repository to your local machine:
 
@@ -49,7 +48,7 @@ auto-pr-bot/
    cd GitHub-Auto-Pull-Request-Bot
    ```
 
-2. **Install Dependencies**
+2. **Install Dependencies** 📦
 
    Install the necessary Python dependencies by running:
 
@@ -57,7 +56,7 @@ auto-pr-bot/
    pip install -r requirements.txt
    ```
 
-3. **Configure API and Repository Details**
+3. **Configure API and Repository Details** ⚙️
 
    Update the `config/config.py` file with your GitHub username, token, repository name, and other configuration details:
 
@@ -72,7 +71,7 @@ auto-pr-bot/
    NUM_PRS_PER_DAY = 15
    ```
 
-4. **Run the Bot**
+4. **Run the Bot** 🏃‍♂️
 
    You can now run the bot by executing the following:
 
@@ -80,9 +79,9 @@ auto-pr-bot/
    python run_bot.py
    ```
 
-   The bot will start creating pull requests on your specified repository, adding random sentences in commits, and pushing them automatically.
+   The bot will start creating pull requests on your specified repository, adding random sentences in commits, and pushing them automatically. 🔄
 
-## Dependencies
+## Dependencies 📜
 
 This project requires the following Python packages:
 
@@ -95,13 +94,12 @@ To install these dependencies, you can run:
 pip install -r requirements.txt
 ```
 
-## License
+## License 📝
 
 This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-## Contributing
+## Contributing 🤝
 
-Feel free to fork this repository, make improvements, and create pull requests. Any contributions are welcome!
+Feel free to fork this repository, make improvements, and create pull requests. Any contributions are welcome! 🎉
 
 ---
-
